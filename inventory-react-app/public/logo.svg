@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="48" height="48" role="img" aria-label="Inventory cube logo">
+  <defs>
+    <clipPath id="cube-clip">
+      <polygon points="100,20 173,62 173,146 100,188 27,146 27,62"/>
+    </clipPath>
+  </defs>
+  <!-- bottom point D is the resting corner (lowest point) -->
+  <!-- Left face: F(27,62) E(27,146) D(100,188) O(100,104) -->
+  <polygon points="27,62 27,146 100,188 100,104" fill="#000000" stroke="#000000" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Right face: B(173,62) C(173,146) D(100,188) O(100,104) -->
+  <polygon points="173,62 173,146 100,188 100,104" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Top face: A(100,20) B(173,62) O(100,104) F(27,62) -->
+  <polygon points="100,20 173,62 100,104 27,62" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-linejoin="round"/>
+  <!-- hidden back edges for crisp isometric outline -->
+  <polyline points="100,20 27,62 27,146 100,188 173,146 173,62 100,20" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" clip-path="url(#cube-clip)"/>
+</svg>

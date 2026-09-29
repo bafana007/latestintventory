@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: inventory-react-app
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: VITE_STRIPE_PUBLISHABLE_KEY
+        sync: false

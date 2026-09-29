@@ -1,0 +1,8 @@
+/* React host layer. The original Inventory stylesheet remains authoritative. */
+.react-loader {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+#inventory-app { min-height: 100vh; }
+.hidden { display: none !important; }
