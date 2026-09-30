@@ -129,3 +129,5 @@ Organized component-based React architecture
 This project represents another step in my development journey, focusing on React, full-stack development, API integration, deployment, and modern web application architecture.
 
 #React #Vite #JavaScript #NodeJS #ExpressJS #Firebase #WebDevelopment #SoftwareDevelopment #InventoryManagement #FullStackDevelopment #Render
+
+View live demo at https://latestintventory.onrender.com/
