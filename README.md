@@ -1,6 +1,5 @@
 Inventory Management System — React Web App
 
-I converted my Inventory Management System into a modern React + Vite web application, while preserving the existing interface and core functionality.
 
 The application provides an organized platform for managing inventory and includes the existing system features with a React-based project structure.
 
